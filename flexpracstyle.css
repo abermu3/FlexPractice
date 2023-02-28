@@ -1,0 +1,32 @@
+* {
+    color: white;
+    font-family: sans-serif;
+}
+
+.row {
+
+    margin: 0, auto;
+    display: flex;
+    align-items: center;
+    background-color: silver;
+    
+
+}
+
+.col, .col-2, .col-3 {
+
+    background-color: teal;
+    padding: 10px;
+    flex: 1;
+    margin: 10px;
+}
+
+.col-2 {
+
+    flex: 2;
+}
+
+.col-3 {
+
+    flex: 3;
+}
